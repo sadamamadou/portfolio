@@ -1,0 +1,54 @@
+.contact .container{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact .btn-container{
+    margin: 0 auto;
+}
+.contact .btn{
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    line-height: 40px;
+    white-space: nowrap;
+    border: 0.1px solid lightgray;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.contact .btn:nth-child(1){
+    background-image: linear-gradient(to right,blue, lightblue);
+    color: white;
+    
+}
+.contact .btn:nth-child(2){
+    background-image: linear-gradient(to right,gray, lightgray);
+    
+}
+
+.contact .icons-social i{
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+
+
+/*********** media queries *************/
+
+@media (max-width: 576px) {
+    .contact .btn-container{
+        flex-direction: column;
+        
+    }
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 992px) {
+   
+}
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 1400px) {
+
+}

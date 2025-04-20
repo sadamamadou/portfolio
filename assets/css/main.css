@@ -1,0 +1,7 @@
+@import url("frameworks/template.css");
+@import url('variables.css');
+@import url("component/header.css");
+@import url("component/competence.css");
+@import url("component/contact.css");
+@import url("component/projetc.css");
+@import url("component/course.css");

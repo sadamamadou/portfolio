@@ -3,15 +3,162 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/fontawesome-free-6.6.0-web/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Mon Portfolio</title>
 </head>
 <body>
-    <main>
-        <header>
-            <h1>Sadam AMADOUN AMINOU</h1>
+    <header class="container flex jcc aic column">
+        <div class="profil">
+            <img src="/assets/images/photo.jpg" alt="">
+        </div>
+        <div class="descript">
+            <h1>Sadam AMADOU AMINOU</h1>
+            <h4>Développeur Full Stack</h4>
             <P>Développeur front-end et passionné d'interface utilisateur/expérience utilisateur</P>
-        </header>
-    </main>
+        </div>
+    </header>
+    <section class="course">
+        <div class="container ">
+            <h1 class="tc">Mon Parcours en brèf</h1>
+            <p class="taj">
+                J'ai eu mon BTS en Informatique de gestion en 2017, après celà, je me suis
+                lancé dans une autre challenge, celui d'obtenir un diplôme en économie, ce qui
+                a été fait en 2019 où j'ai obtenu ma licence en Economie Appliquée. 
+                Par ailleurs j'ai suivi divers formation: en Maintenance Informatique, 
+                Informatique bureautique(Word, Excel, Outlook, ...).
+                Actuellement je suis un formation en développeur Full Stack l'histoire
+                d'ameliorer mes compétences. 
+                Merci de m'avoir lu, vos conseils, suggestions sont les bienvenus.
+            </p>
+            <p>Cordialement</p>
+            
+        </div>
+    </section>
+
+    <section class="competence ">
+        <div class="container flex jcsb column  py-15 ">
+            <h1 class="tc">Compétences Techniques</h1>
+            <div class="techno-items flex jcsb aic box">
+                <div class="techno-item">
+                    <div class="list-item box">
+                        <div class="name-rate flex jcsb">  
+                            <div class="name">html</div>
+                            <div class="rate">80%</div>
+                        </div>
+                        <progress id="progress" max="100" value="80">80%</progress>
+                    </div>
+                    <div class="list-item box">
+                        <div class="name-rate flex jcsb">  
+                            <div class="name">css</div>
+                            <div class="rate">65%</div>
+                        </div>
+                        <progress id="progress" max="100" value="65">65%</progress>
+                    </div>
+                    <div class="list-item box">
+                        <div class="name-rate flex jcsb">  
+                            <div class="name">javascript</div>
+                            <div class="rate">10%</div>
+                        </div>
+                        <progress id="progress" max="100" value="10">10%</progress>
+                    </div>     
+                </div>
+                <div class="techno-item">
+                    <div class="list-item box">
+                        <div class="name-rate flex jcsb">  
+                            <div class="name">html</div>
+                            <div class="rate">80%</div>
+                        </div>
+                        <progress id="progress" max="100" value="70">70%</progress>
+                    </div>
+                    <div class="list-item box">
+                        <div class="name-rate flex jcsb">  
+                            <div class="name">css</div>
+                            <div class="rate">65%</div>
+                        </div>
+                        <progress id="progress" max="100" value="70">70%</progress>
+                    </div>
+                    <div class="list-item box">
+                        <div class="name-rate flex jcsb">  
+                            <div class="name">javascript</div>
+                            <div class="rate">10%</div>
+                        </div>
+                        <progress id="progress" max="100" value="70">70%</progress>
+                    </div>     
+                </div>
+                <div class="techno-item">
+                    <div class="list-item box">
+                        <div class="name-rate flex jcsb">  
+                            <div class="name">html</div>
+                            <div class="rate">80%</div>
+                        </div>
+                        <progress id="progress" max="100" value="70">70%</progress>
+                    </div>
+                    <div class="list-item box">
+                        <div class="name-rate flex jcsb">  
+                            <div class="name">css</div>
+                            <div class="rate">65%</div>
+                        </div>
+                        <progress id="progress" max="100" value="70">70%</progress>
+                    </div>
+                    <div class="list-item box">
+                        <div class="name-rate flex jcsb">  
+                            <div class="name">javascript</div>
+                            <div class="rate">10%</div>
+                        </div>
+                        <progress id="progress" max="100" value="70">70%</progress>
+                    </div>     
+                </div>
+            </div>
+        </div>    
+    </section>
+
+    <section class="project">
+        <div class="container  ">
+            <h1 class="tc">Mes Réalisations</h1>
+            <div class="project-items flex jcsb px-25">
+                <div class="project-item flex column">
+                    <div class="image"><img src="/assets/images/code.jpg"  alt="image de projet"></div>
+                    <div class="title py-20">Clonage du site Facebook</div>
+                    <div class="details">Ce site a été réalisé par html, css et Javascript</div>
+                    <div class="link-project"><a href="#">Voir le projet sur Github</a> <i class="fas fa-arrow-right"></i></div>
+                </div>
+                <div class="project-item flex column">
+                    <div class="image"><img src="/assets/images/code.jpg"  alt="image de projet"></div>
+                    <div class="title py-20">Clonage du site Facebook</div>
+                    <div class="details">Ce site a été réalisé par html, css et Javascript</div>
+                    <div class="link-project"><a href="#">Voir le projet sur Github</a> <i class="fas fa-arrow-right"></i></div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container ">
+            <h1>Connectons-nous</h1>
+            <p>Envie de collaborer ? Discutons-en</p>
+            <div class="position">
+                <i class="fas fa-location"></i> Bénin, Cotonou
+            </div>
+            <div class="btn-container flex jcc aic gap-25">
+                <div class="btn box ">
+                    <a href=""><i class="fa fa-envelope px-10"> </i> Entrer en contact</a>
+                </div>
+                <div class="btn box ">
+                    <a href=""><i class="fa fa-file px-10"> </i> Voir mon CV</a>
+                </div>
+            </div>
+            <div class="icons-social flex jcc aic gap-20 my-25">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-github"></i>
+            </div>
+        </div>
+    </section>
+
+
 </body>
-</html>
+</html> 

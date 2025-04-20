@@ -2,3 +2,32 @@ main header{
     width: 90%;
     text-align: center;
 }
+
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+  
+li{
+    list-style: none;
+}
+  
+a{
+    text-decoration: none;
+    color: inherit;
+}
+i{
+    cursor: pointer;
+}
+
+.b{
+    border: 1px solid black;
+}
+
+h1{
+    background-image: linear-gradient(to right, rgba(0,0,255,0), rgba(0,0,255,1));
+
+}
+.bars{
+    border-top: 0.1px solid lightblue;
+}

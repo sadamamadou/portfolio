@@ -1,0 +1,43 @@
+.project .container{
+    margin: 0 auto;
+    
+}
+
+.project-item .image img{
+    min-width: 600px;
+    height: 350px;
+
+}
+
+.project-item .link-project {
+    color: blue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/*********** media queries *************/
+
+@media (max-width: 576px) {
+    
+}
+@media (max-width: 768px) {
+    .project-item .image img{
+        width: 90%;
+    
+    }
+}
+@media (max-width: 992px) {
+   
+}
+@media (max-width: 1200px) {
+    .project-items {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+@media (max-width: 1400px) {
+
+}
