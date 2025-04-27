@@ -57,6 +57,23 @@ body{
 }
 
 /*---------------
+POSITIONNEMENT
+---------------*/
+
+.relavitive{
+  position: relative;;
+}
+.absolute{
+  position: absolute;
+}
+.fixed{
+  position: fixed;
+}
+.sticky{
+  position: sticky;
+}
+
+/*---------------
  Flex Gap
 ---------------*/
 .gap-5 {

@@ -1,3 +1,6 @@
+body{
+    background-color: white;
+}
 main header{
     width: 90%;
     text-align: center;
@@ -30,4 +33,15 @@ h1{
 }
 .bars{
     border-top: 0.1px solid lightblue;
+}
+
+#overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba( 255, 255, 255, 0.8);
+    display: none;
+    
 }

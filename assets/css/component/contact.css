@@ -31,6 +31,59 @@
     font-size: 1.3rem;
 }
 
+form{
+    position: relative;
+    margin-bottom: 200px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,10%);
+    max-width: 700px;
+    min-height: 500px;
+    border: 1px solid var(--main-color-cendre);
+    color: var(--main-color-gray);
+   
+}
+.form-inline input{
+    height: 55px; 
+}
+.form-inline input, .form-inline textarea{
+    color: var(--main-color-gray);
+    flex: 1;
+    border: 0.1px solid #ccc;
+    outline: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 0;
+}
+.form-inline textarea{
+   
+    flex: 1;
+    border: 0.1px solid #ccc;
+    outline: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    
+}
+
+
+.form-button .btn:hover{
+    background-color: var(--main-color);
+}
+
+.info{
+    margin-left: 5px;
+    margin-right: 5px;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+.info .contact-form{
+    color: blue;
+}
+
 
 /*********** media queries *************/
 
@@ -44,7 +97,9 @@
 
 }
 @media (max-width: 992px) {
-   
+    form{
+        width: 90%;
+    }
 }
 @media (max-width: 1200px) {
 

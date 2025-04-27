@@ -5,4 +5,6 @@
     --main-color-gray: gray;
 
     --z-index-header: 100;
+    --z-index-mobile : 999;
+    --z-index-overlay: 990;
 }

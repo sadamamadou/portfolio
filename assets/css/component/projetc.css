@@ -3,6 +3,24 @@
     
 }
 
+.project .project-item{
+    cursor: pointer;
+    
+}
+.project .project-details {
+    font-size: 1.5rem;
+    padding: 10px;
+    text-align: justify;
+}
+.project .project-details .title{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.project .project-item:hover{
+    transform: scale(1.01);
+    
+}
+
 .project-item .image img{
     min-width: 600px;
     height: 350px;
