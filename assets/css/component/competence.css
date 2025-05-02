@@ -1,16 +1,15 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .competence .container{
     margin: 0 auto;
     border-top: 0.1px solid lightblue;
 }
-/*.competence .container .techno-item li,
-.competence .container .techno-item progress{
-    height: 20px;
-    width: 250px;
-    line-height: 20px;
-    padding: 10px;
-    margin-top: 15px;
-    margin-bottom: 0;
-    }*/
+
 .competence .container .techno-item .list-item{
     margin-top: 15px;
     margin-bottom: 15px;
@@ -25,10 +24,14 @@
    
 }
 .competence .container .techno-item .list-item:hover{
-    transform: scale(1.01);
+    -webkit-transform: scale(1.01);
+        -ms-transform: scale(1.01);
+            transform: scale(1.01);
 }
 
 .competence .container h1{
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0,0,255,0)), to(rgba(0,0,255,1)));
+    background-image: -o-linear-gradient(left, rgba(0,0,255,0), rgba(0,0,255,1));
     background-image: linear-gradient(to right, rgba(0,0,255,0), rgba(0,0,255,1));
 }
 
@@ -41,7 +44,10 @@
 }
 @media (max-width: 768px) {
     .competence .container .techno-items{
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     .competence .container .techno-items .list-item{
         font-size: 1.3rem;

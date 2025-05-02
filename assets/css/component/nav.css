@@ -1,10 +1,18 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 nav .nav-content{
     top: 10px;
     left: 0;
     width: 360px;
     height: 100vh;
     z-index: var(--z-index-mobile);
-    box-shadow: 2px 8px 12px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 2px 8px 12px rgba(0, 0, 0, 0.2);
+            box-shadow: 2px 8px 12px rgba(0, 0, 0, 0.2);
     background-color: lightgrey;
 }
 nav ul.nav-items {
@@ -21,7 +29,8 @@ nav .nav-items li{
 nav .nav-items li:hover{
     color: white;
     cursor: pointer;
-    box-shadow: 2px 8px 12px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 2px 8px 12px rgba(0, 0, 0, 0.2);
+            box-shadow: 2px 8px 12px rgba(0, 0, 0, 0.2);
     font-size: 2rem;
 }
 nav i.close-nav {

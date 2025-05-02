@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 body{
     background-color: white;
 }
@@ -28,6 +35,8 @@ i{
 }
 
 h1{
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0,0,255,0)), to(rgba(0,0,255,1)));
+    background-image: -o-linear-gradient(left, rgba(0,0,255,0), rgba(0,0,255,1));
     background-image: linear-gradient(to right, rgba(0,0,255,0), rgba(0,0,255,1));
 
 }

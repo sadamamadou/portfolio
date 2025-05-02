@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .project .container{
     margin: 0 auto;
     
@@ -17,7 +24,9 @@
     text-decoration: underline;
 }
 .project .project-item:hover{
-    transform: scale(1.01);
+    -webkit-transform: scale(1.01);
+        -ms-transform: scale(1.01);
+            transform: scale(1.01);
     
 }
 
@@ -50,12 +59,22 @@
 }
 @media (max-width: 1200px) {
     .project-items {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     .project-item{
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     .project-item .image img{
         width: 100%;

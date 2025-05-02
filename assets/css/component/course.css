@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .course p{
     font-size: 1.5rem;
 }
@@ -28,7 +35,10 @@ em{
 }
 @media (max-width: 992px) {
    .course-content{
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
    }
 }
 @media (max-width: 1200px) {
@@ -37,4 +47,3 @@ em{
 @media (max-width: 1400px) {
 
 }
-
