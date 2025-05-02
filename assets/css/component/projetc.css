@@ -54,7 +54,13 @@
         justify-content: center;
         align-items: center;
     }
+    .project-item{
+        flex-direction: column;
+    }
+    .project-item .image img{
+        width: 100%;
     
+    }
 }
 @media (max-width: 1400px) {
 

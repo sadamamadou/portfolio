@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/fontawesome-free-6.6.0-web/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Mon Portfolio</title>
@@ -25,22 +25,18 @@
     </header>
 
     <nav class="relative none" id="nav-mobile">
-       
-            <ul class="nav-items flex column absolute box">
-                <li class="nav-item py-15 px-10">Home</li>
-                <li class="nav-item py-15 px-10">Portfolio</li>
-                <li class="nav-item py-15 px-10">A propos</li>
-                <li class="nav-item py-15 px-10">Compétences</li>
-                <li class="nav-item py-15 px-10">Contacts</li>
-
-                <div class="close-nav absolute flex py-10">
-                    <i class="fa fa-close" id="closed"></i>
-                </div>
+        <div class="nav-content absolute">          
+                <i class="fa fa-close close-nav absolute" id="closed"></i>
+            <ul class="nav-items flex column  absolute ">
+                <li class="nav-item py-15 px-10"><a href="/">Home</a></li>
+                <li class="nav-item py-15 px-10"><a href="#Portfolio">Portfolio</a></li>
+                <li class="nav-item py-15 px-10"><a href="#Apropos">Apropos</a></li>
+                <li class="nav-item py-15 px-10"><a href="#Competences">Compétences</a></li>
+                <li class="nav-item py-15 px-10"><a href="contact.html">Contact</a></li>
             </ul>
-
-        </div>
+        </div>      
     </nav>
-    <section class="course">
+    <section class="course " id="Apropos">
         <div class="container ">
             <div class="course-title">
                 <h1 class="tc">Mon Parcours en brèf</h1>
@@ -49,7 +45,7 @@
                     lancé dans une autre challenge, celui d'obtenir un diplôme en économie, ce qui
                     a été fait en 2019 où j'ai obtenu ma licence en Economie Appliquée. 
                     Par ailleurs j'ai suivi divers formation: en Maintenance Informatique, 
-                    Informatique bureautique(Word, Excel, Outlook, ...).
+                    Informatique bureautique( Word, Excel, Outlook, ...).
                     Actuellement je suis une formation en développeur Full Stack l'histoire
                     d'ameliorer mes compétences. 
                     Merci de m'avoir lu, vos conseils, suggestions sont les bienvenus.
@@ -57,37 +53,37 @@
                 <p>Cordialement</p>
 
             </div>
-            <div class="course-content flex ">
-                <div class="course-item">
+            <div class="course-content flex gap-25 ">
+                <div class="course-item flex-1">
                     <h4>Parcours</h4>
                     <ul>
-                        <li><em>2024:</em> Formation Full Stack sur la plateforme Muday</li>
-                        <li><em>:</em> Formation Full Stack sur la plateforme Muday</li>
-                        <li><em>2018</em> Formation Full Stack sur la plateforme Muday</li>
-                        <li><em>2017</em> Formation en Maintenance Informatique</li>
+                        <li><em>2023:</em> Formation Full Stack sur la plateforme Muday</li>
+                        <li><em>2020-2021:</em> Licence en en Système d'Information et Réseaux Informatique</li>
+                        <li><em>2017-2020:</em> Licence en Econométrie</li>
                         <li><em>2015-2017:</em>Brevet de Technicien Supérieur en Informatique de Gestion</li>
                     </ul>
                 </div>
-                <div class="course-item">
+                <div class="course-item flex-1">
                     <h4>Formations</h4>
                     <ul>
-                        <li><em>2024:</em> Concevez votre site web avec PHP et MySQL</li>
-                        <li><em>2024:</em>Initiez-vous à Outlook</li>
-                        <li><em>2024:</em>Maîtrisez les fondamentaux d'Excelk</li>
-                        <li><em>:</em> Apprenez les bases du langage Python</li>
-                        <li><em>2018</em> Comprendre le Web</li>
-                        <li><em>2017</em> Adoptez une architecture MVC en PHP</li>
-                        <li><em>2015-2017:</em>Créez votre site web avec HTML5 et CSS3</li>
+                        
+                        <li><em>2023:</em> Formation Full Stack sur la plateforme Muday</li>
+                        <li><em>2022:</em> Introduction sur Laravel  avec  sur Youtube</li>
+                        <li><em>2022:</em> Concevez votre site web avec PHP et MySQL sur Openclassrooms</li>
+                        <li><em>2022:</em>Initiez-vous à Outlook sur Openclassrooms</li>
+                        <li><em>2018:</em>Maîtrisez les fondamentaux d'Excel sur Openclassrooms</li>
+                        <li><em>2018:</em> Apprenez les bases du langage Python sur Openclassrooms</li>
+                        <li><em>2018:</em> Comprendre le Web sur Openclassrooms</li>
+                        <li><em>2017:</em> Adoptez une architecture MVC en PHP sur Openclassrooms</li>
+                        <li><em>2017:</em>Créez votre site web avec HTML5 et CSS3 sur Openclassrooms</li>
                     </ul>
                 </div>
-                <div class="course-item">
+                <div class="course-item flex-1">
                     <h4>Expériences</h4>
                     <ul>
-                        <li><em>2024:</em> Formation Full Stack sur la plateforme Muday</li>
-                        <li><em>:</em> Formation Full Stack sur la plateforme Muday</li>
-                        <li><em>2018</em> Formation Full Stack sur la plateforme Muday</li>
-                        <li><em>2017</em> Formation en Maintenance Informatique</li>
-                        <li><em>2015-2017:</em>Brevet de Technicien Supérieur en Informatique de Gestion</li>
+                        <li><em>2023:</em> Stagiaire à Coris Bank International</li>
+                        <li><em>2022:</em> Stagiaire à la FECECAM-BENIN</li>
+                        <li><em>2017:</em>Stagiaire au Ministère du Plan et du Développement</li>
                     </ul>
                 </div>
                
@@ -95,7 +91,7 @@
         </div>
     </section>
 
-    <section class="competence ">
+    <section class="competence " id="Competences">
         <div class="container flex jcsb column  py-15 ">
             <h1 class="tc">Compétences Techniques</h1>
             <div class="techno-items flex jcsb aic box">
@@ -172,7 +168,7 @@
         </div>    
     </section>
 
-    <section class="project">
+    <section class="project" id="Portfolio">
         <div class="container  ">
             <h1 class="tc">Mes Réalisations</h1>
             <div class="project-items flex jcsb px-25 py-15 column">
@@ -213,7 +209,12 @@
                     </div>
                     <div class="project-details flex-1 taj">
                         <div class="title py-20">Boulangérie Artisanale</div>
-                        <div class="details">Ce site a été réalisé par html, css et Javascript</div>
+                        <div class="details">
+                            C'est une plateforme en ligne dédiée à la présentatipon et à la 
+                            vente des produits de la boulangérie, Il présent divers produits de la petissérie
+                            qu'ils soient des biens ou des services.
+                            
+                        </div>
                         <div class="link-project"><a href="https://github.com/sadamamadou/boulangerie">Voir le projet sur Github</a> <i class="fas fa-arrow-right"></i></div>
                     </div>
                 </div>
