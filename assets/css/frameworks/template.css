@@ -13,6 +13,8 @@ body{
     visibility: visible;
     font-size: 14px;
     background-color: var(--main-color-white);
+    margin: 0 auto;
+    text-align: center;
 }
 
 /** TYPE D'AFFICHAGE */
@@ -540,7 +542,9 @@ POSITIONNEMENT
 .taj{
   text-align: justify;
 }
-
+.b{
+  border: 2px solid green;
+}
 *------------------*
 #Container
 *------------------*/

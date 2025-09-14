@@ -8,6 +8,7 @@
 header{
     margin:  0 auto;
     width: 100%;
+    border: 2px solid red;
 }
 header .nav {
     top: 15px;
@@ -34,4 +35,41 @@ div.profil{
 }
 #toggle-bars{
     color: blue;
+}
+
+/*********** media queries *************/
+@media (max-width: 350px) {
+     div.profil{
+        max-width: 300px;
+        max-height: 300px;
+        border-radius: 350px;
+        
+        margin: 0 auto;
+    }
+}
+@media (max-width: 576px) {
+    header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        width: 100%;
+    }
+
+   
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 992px) {
+   
+}
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 1400px) {
+    header{
+    margin:  0 auto;
+    width: 90%;
+    }
 }

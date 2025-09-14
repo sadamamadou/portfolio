@@ -8,6 +8,11 @@
 body{
     background-color: white;
 }
+.main-container{
+    margin: 0 auto  ;
+    text-align: center;
+    /*border: 2px solid red;*/
+}
 main header{
     width: 90%;
     text-align: center;
